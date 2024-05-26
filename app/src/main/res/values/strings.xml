@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">MyLogin</string>
+<!--    <string name="app_name">MCQFrontend</string>-->
+    <string name="option4">Option4</string>
+    <string name="option3">Option3</string>
+    <string name="option2">Option2</string>
+    <string name="option1">Option1</string>
+    <string name="question_in_english">Question in english</string>
+    <string name="question_in_hindi">Question in hindi</string>
+    <string name="q_3_100">Q. 3/100</string>
+    <string name="_00_00_00">00:00:00</string>
 </resources>

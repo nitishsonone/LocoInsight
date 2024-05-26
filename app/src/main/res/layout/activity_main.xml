@@ -92,8 +92,10 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/done_icon"
             android:inputType="textEmailAddress"
-            android:drawableEnd="@drawable/done_icon"/>
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <View
             android:layout_width="wrap_content"
@@ -109,8 +111,10 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/done_icon"
             android:inputType="textEmailAddress"
-            android:drawableEnd="@drawable/done_icon"/>
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <View
             android:layout_width="wrap_content"
@@ -125,8 +129,9 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/password_icon"
             android:inputType="textPassword"
-            android:drawableEnd="@drawable/password_icon"/>
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -152,8 +157,10 @@
             android:layout_height="10dp"/>
 
         <com.google.android.material.button.MaterialButton
+
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:id="@+id/button1"
             android:text="Login"
             app:cornerRadius="32dp"/>
 
