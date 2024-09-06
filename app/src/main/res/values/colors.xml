@@ -11,5 +11,8 @@
 
     <color name="my_primary">#5E35B1</color>
     <color name="my_secondary">#673AB7</color>
+    <color name="lavender">#8692f7</color>
+    <color name="grey">#ff424242</color>
+    <color name="colorPrimary">#3B6AA3</color>
 
 </resources>

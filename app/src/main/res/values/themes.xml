@@ -13,4 +13,15 @@
         <item name="android:statusBarColor">@color/my_primary</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="MyCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialCardView.Cut</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MaterialCardView.Cut" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">55dp</item>
+        <item name="cornerSizeTopLeft">55dp</item>
+        <item name="cornerSizeBottomRight">45dp</item>
+        <item name="cornerSizeBottomLeft">45dp</item>
+    </style>
 </resources>

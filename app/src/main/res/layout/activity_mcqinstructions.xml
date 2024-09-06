@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/instructions_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exam Instructions"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/instruction_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="1. You have a total of 2 hours to complete the 50 multiple-choice questions. After 2 hours test will be automatically submitted."
+        android:textSize="16sp"
+        android:textColor="#323030"
+        android:justificationMode="inter_word"
+        android:padding="10dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/instruction_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="#323030"
+        android:text="2. Use the 'Next' and 'Previous' buttons to move between questions. You can review and change your answers at any time during the exam."
+        android:textSize="16sp"
+        android:justificationMode="inter_word"
+        android:padding="10dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/instruction_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="#323030"
+        android:text="3. Once you click the 'Submit' button, your exam will be finalized and you will not be able to make any further changes. Make sure to review all your answers before submitting."
+        android:textSize="16sp"
+        android:justificationMode="inter_word"
+        android:padding="10dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/instruction_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#323030"
+        android:layout_marginTop="15dp"
+        android:text="4. Your answers are automatically saved as you navigate through the questions, ensuring no data is lost if you need to review or revisit any question."
+        android:textSize="16sp"
+        android:justificationMode="inter_word"
+        android:padding="10dp"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        android:layout_marginTop="25dp">
+
+        <Button
+            android:id="@+id/cancel_exam_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+
+            android:layout_marginEnd="16dp"/>
+
+        <Button
+            android:id="@+id/start_exam_button"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="Start Exam"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

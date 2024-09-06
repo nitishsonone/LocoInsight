@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".qb">
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:columnCount="2"
+            android:padding="1dp"
+            android:rowCount="13">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/HR"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_margin="10dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/hindi_ques"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        />
+                    <TextView
+                        android:id="@+id/eng_ques"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        />
+
+                    <RadioGroup
+                        android:id="@+id/rg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        >
+
+                        <RadioButton
+                            android:id="@+id/op1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:layout_margin="2dp"
+
+                            />
+                        <RadioButton
+                            android:id="@+id/op2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:layout_margin="2dp"
+
+                            />
+                        <RadioButton
+                            android:id="@+id/op3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:layout_margin="2dp"
+
+                            />
+                        <RadioButton
+                            android:id="@+id/op4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:layout_margin="2dp"
+
+                            />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+        </GridLayout>
+
+
+</RelativeLayout>

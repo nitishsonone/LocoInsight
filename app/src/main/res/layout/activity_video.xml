@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wag_section_wise"
+    >
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="05dp"
+        android:background="@drawable/card_border"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="20dp"
+        android:text="Ready Animated Videos"
+        android:textColor="#114295"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="5dp">
+
+        <!-- The content inside the ScrollView -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:columnCount="2"
+            android:rowCount="20"
+
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video1"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_row="1"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:gravity="center"
+                        android:text="Blender Circuit Animation Video"
+                        android:textColor="#2E2E2E"
+                        android:textSize="22sp" />
+
+                </LinearLayout>
+
+<!--                <ImageView-->
+<!--                    android:layout_width="40dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:layout_marginLeft="270dp"-->
+<!--                    app:srcCompat="@drawable/arrow" />-->
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video2"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_row="2"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:gravity="center"
+                        android:text="E-70 Charging BP Charging "
+                        android:textColor="#2E2D2D"
+                        android:textSize="22sp" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video3"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_row="3"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:gravity="center"
+                        android:text="E-70 BP Discharging"
+                        android:textColor="#2E2D2D"
+                        android:textSize="22sp" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video4"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_row="4"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Emergency Brakes By A9"
+                        android:textColor="#2E2D2D"
+                        android:textSize="22sp" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video5"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_row="5"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Emergency Brakes by Brake Electronics"
+                        android:textColor="#2E2D2D"
+                        android:textSize="22sp" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video6"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_row="6"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Feed Valve in E 70 Brake System"
+                        android:textColor="#2E2D2D"
+                        android:textSize="22sp" />
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video7"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_row="7"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="HIGH REACH PANTO ADD"
+                        android:textColor="#2E2D2D"
+                        android:textSize="22sp" />
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video8"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_row="8"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:gravity="center"
+                        android:text="HIGH REACH PANTO ORD"
+                        android:textColor="#2E2D2D"
+                        android:textSize="22sp" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video9"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_row="9"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:gravity="center"
+                        android:text="HIGH REACH PANTO Raising and Lowering Both"
+                        android:textColor="#2E2D2D"
+                        android:textSize="22sp" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video10"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_row="10"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="LPO CYCLE in E-70 Brake System"
+                        android:textColor="#2E2D2D"
+                        android:textSize="22sp" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video11"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_row="11"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="SA 9 Brake Application in E-70 Brake System"
+                        android:textColor="#2E2D2D"
+                        android:textSize="22sp" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video12"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_row="12"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="SA 9 RELEASE ANIMATION Conventional"
+                        android:textColor="#2E2D2D"
+                        android:textSize="22sp" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video13"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_row="13"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="SA APPLICATION conventional"
+                        android:textColor="#2E2D2D"
+                        android:textSize="22sp" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video14"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_row="14"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="TMDDS Animation Video with bogie Assembly"
+                        android:textColor="#2E2D2D"
+                        android:textSize="22sp" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video15"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_row="15"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="WAG 9 Pantograph Lowering"
+                        android:textColor="#2E2D2D"
+                        android:textSize="22sp" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video16"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_row="16"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="WAG 9 Pantograph Raising"
+                        android:textColor="#2E2D2D"
+                        android:textSize="22sp" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video17"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_row="17"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="WAG 9 Sander CKT Animation Video"
+                        android:textColor="#2E2D2D"
+                        android:textSize="22sp" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </GridLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

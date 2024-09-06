@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".level1_QB">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="20dp"
+        android:text="CONVENTIONAL LOCO QUESTION BANK (LEVEL – I)"
+        android:textColor="#114295"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="110dp"
+        android:text="Show Answer" />
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="110dp"
+        android:text="Hide Answer"
+        android:layout_alignEnd="@id/top_view"
+        android:layout_marginRight="10dp"
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ques_list"
+        android:layout_width="400dp"
+        android:layout_height="530dp"
+        android:layout_below="@id/btn1"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="9dp" />
+</RelativeLayout>

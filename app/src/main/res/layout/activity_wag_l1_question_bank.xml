@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        android:layout_marginTop="25dp">
+
+        <Button
+            android:id="@+id/showans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show"
+            android:layout_marginEnd="16dp"/>
+
+        <Button
+            android:id="@+id/hideans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hide"
+            android:layout_marginLeft="100dp"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/questionlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

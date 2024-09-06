@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">80%</item>
+    </style>
+    <!-- res/values/styles.xml -->
+    <style name="RoundedDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+    </style>
+
+</resources>

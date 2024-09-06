@@ -1,0 +1,200 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <!-- Full Mock Exam Header -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="07dp"
+
+        android:background="@drawable/card_border"
+
+        android:paddingStart="10dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="20dp"
+        android:text="Full Mock Exam"
+        android:textColor="#114295"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <!-- Mock Test for Technician to Junior Engineer -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardElevation="4dp"
+        card_view:cardBackgroundColor="#80B2C5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/mockTestTechnicianToJEHeader"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Mock Test for Technician to Junior Engineer"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/totalQuestionsTechnicianToJE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Total: 110 Questions"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@android:drawable/ic_media_play" />
+
+                <Button
+                    android:id="@+id/timemock2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/holo_green_light"
+                    android:text="Mock Test With Timer (2 Hours)"
+
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@android:drawable/ic_media_play" />
+
+                <Button
+                    android:id="@+id/withouttimemock2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/holo_green_light"
+                    android:text="Mock Test Without Timer"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Mock Test for Khalasi To Technician -->
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="16dp"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardElevation="4dp"
+        card_view:cardBackgroundColor="#80B2C5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/mockTestKhalasiToTechnicianHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Mock Test for Assistant Loco Shed To Technician"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/totalQuestionsKhalasiToTechnician"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Total: 110 Questions"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@android:drawable/ic_media_play" />
+
+                <Button
+                    android:id="@+id/timemock1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/holo_green_light"
+                    android:text="Mock Test With Timer (2 Hours)"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@android:drawable/ic_media_play" />
+
+                <Button
+                    android:id="@+id/withouttimemock1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/holo_green_light"
+                    android:text="Mock Test Without Timer"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

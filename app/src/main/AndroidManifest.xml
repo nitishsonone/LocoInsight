@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <!-- Add permissions for phone state and network state -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
+        android:name=".lighttheme"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -13,31 +18,81 @@
         android:theme="@style/Theme.MyLogin"
         tools:targetApi="34">
         <activity
-            android:name=".mcq"
+            android:name=".mcql2"
             android:exported="false" />
         <activity
             android:name=".MainActivity2"
-            android:exported="true">
-            <intent-filter>
-
-                <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".wag_section_wise"
+            android:exported="false" />
+        <activity
+            android:name=".WagL1QuestionBank"
+            android:exported="false" />
+        <activity
+            android:name=".Wag"
+            android:exported="false" />
+        <activity
+            android:name=".update_pass"
+            android:exported="false" />
+        <activity
+            android:name=".userprofile"
+            android:exported="false" />
+        <activity
+            android:name=".video"
+            android:exported="false" />
+        <activity
+            android:name=".videoplayer"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|screenSize|smallestScreenSize"
+            />
+
+        <activity
+            android:name=".splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
+        </activity>
+        <activity
+            android:name=".mcqinstructions"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".Section_wise_con_loco"
+            android:exported="false" />
+        <activity
+            android:name=".level1_QB"
+            android:exported="false" />
+        <activity
+            android:name=".Con_Loco"
+            android:exported="false" />
+        <activity
+            android:name=".mcq"
+            android:exported="false" />
+        <activity
+            android:name=".Result"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:noHistory="true">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true">
+
+            <!-- This activity no longer has MAIN and LAUNCHER intent filters -->
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
